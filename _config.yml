@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Kratos : Rebirth'
+title: 'zepery'
 subtitle: '一个可爱而现代的 Hexo 主题'
 description: '欢迎使用这个主题，希望能给您带来美好的体验。'
 keywords: 
@@ -121,4 +121,6 @@ sitemap:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: git@github.com:zepery/blog-zepery.git
+  branch: main
